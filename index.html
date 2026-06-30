@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      data-mgx-overview="icon"
+      rel="icon"
+      href="https://public-frontend-1300249583.cos.ap-nanjing.myqcloud.com/commonfile/DefaultAppLogo.png"
+    />
+    <title data-mgx-overview="title">
+      WeForge Technologies — Digital Craftsmanship
+    </title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      data-mgx-overview="description"
+      name="description"
+      content="WeForge Technologies — No templates. No shortcuts. Just thoughtful design and precise engineering for brands that refuse to blend in."
+    />
+    <meta
+      data-mgx-overview="og:title"
+      property="og:title"
+      content="WeForge Technologies"
+    />
+    <meta
+      data-mgx-overview="og:description"
+      property="og:description"
+      content="Digital craftsmanship for brands that refuse to blend in."
+    />
+    <meta
+      data-mgx-overview="og:image"
+      property="og:image"
+      content="https://public-frontend-1300249583.cos.ap-nanjing.myqcloud.com/commonfile/DefaultAppLogo.png"
+    />
+    <meta
+      data-mgx-overview="twitter:title"
+      name="twitter:title"
+      content="WeForge Technologies"
+    />
+    <meta
+      data-mgx-overview="twitter:description"
+      name="twitter:description"
+      content="Digital craftsmanship for brands that refuse to blend in."
+    />
+    <meta
+      data-mgx-overview="twitter:image"
+      name="twitter:image"
+      content="https://public-frontend-1300249583.cos.ap-nanjing.myqcloud.com/commonfile/DefaultAppLogo.png"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <span class="logo-we">We</span><span class="logo-forge">Forge</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" class="nav-cta">Start a Project</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#services" onclick="closeMobile()">Services</a>
+      <a href="#approach" onclick="closeMobile()">Approach</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Digital Craftsmanship Studio</p>
+        <h1 class="hero-title">
+          We build digital<br />
+          <em>experiences</em> that<br />
+          actually matter.
+        </h1>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            Start a Project <i class="ri-arrow-right-up-line"></i>
+          </a>
+          <a href="#services" class="btn-ghost"> See What We Do </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-section">
+      <div class="marquee-track">
+        <span class="marquee-item">Web Development</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">AI Solutions</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Mobile Apps</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">UI/UX Design</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Cloud Infrastructure</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Digital Strategy</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Web Development</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">AI Solutions</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Mobile Apps</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">UI/UX Design</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Cloud Infrastructure</span>
+        <span class="marquee-sep">◆</span>
+        <span class="marquee-item">Digital Strategy</span>
+        <span class="marquee-sep">◆</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-container">
+        <div class="about-header reveal">
+          <span class="section-tag">About Us</span>
+          <h2 class="section-title">
+            Founded on the belief that great digital work requires both
+            <em>creative vision</em> and <em>technical mastery</em>.
+          </h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Most agencies chase trends — we chase results. Every project
+              starts with a conversation. Not a brief template, not a
+              questionnaire — a real discussion about what you're trying to
+              achieve and why it matters.
+            </p>
+            <p>
+              Our team is small by design. No account managers, no handoffs, no
+              layers. You work directly with the people building your product.
+              That proximity produces better work, faster.
+            </p>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat-block">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Projects Delivered</span>
+            </div>
+            <div class="stat-block">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+            <div class="stat-block">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Support Available</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-values reveal">
+          <div class="value-card">
+            <span class="value-number">01</span>
+            <h4>Innovation First</h4>
+            <p>
+              Leveraging cutting-edge AI and modern tech stacks to solve real
+              problems.
+            </p>
+          </div>
+          <div class="value-card">
+            <span class="value-number">02</span>
+            <h4>Direct Access</h4>
+            <p>
+              Work directly with the engineers and designers building your
+              product.
+            </p>
+          </div>
+          <div class="value-card">
+            <span class="value-number">03</span>
+            <h4>Quality Obsessed</h4>
+            <p>
+              A stubborn commitment to quality over convenience, every single
+              time.
+            </p>
+          </div>
+          <div class="value-card">
+            <span class="value-number">04</span>
+            <h4>Fast Delivery</h4>
+            <p>
+              Agile workflows that ship results, not excuses. Speed without
+              sacrifice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="section-container">
+        <div class="services-header reveal">
+          <span class="section-tag">What We Do</span>
+          <h2 class="section-title">Services built for growth.</h2>
+          <p class="section-desc">
+            End-to-end digital solutions designed to transform your business and
+            delight your users.
+          </p>
+        </div>
+        <div class="services-list">
+          <div class="service-item reveal">
+            <div class="service-number">01</div>
+            <div class="service-content">
+              <h3>Web Development</h3>
+              <p>
+                Custom-built applications with performance as a priority. Clean
+                code, thoughtful architecture, and zero bloat. React, Next.js,
+                Node.js — whatever fits.
+              </p>
+            </div>
+            <div class="service-icon"><i class="ri-code-s-slash-line"></i></div>
+          </div>
+          <div class="service-item reveal">
+            <div class="service-number">02</div>
+            <div class="service-content">
+              <h3>Mobile App Development</h3>
+              <p>
+                Native and cross-platform experiences that feel right on every
+                device. Built for real people, not spec sheets.
+              </p>
+            </div>
+            <div class="service-icon"><i class="ri-smartphone-line"></i></div>
+          </div>
+          <div class="service-item reveal">
+            <div class="service-number">03</div>
+            <div class="service-content">
+              <h3>AI Solutions</h3>
+              <p>
+                Practical AI implementation that solves real problems. Chatbots,
+                automation, and intelligent features built to serve — not to
+                impress.
+              </p>
+            </div>
+            <div class="service-icon"><i class="ri-robot-2-line"></i></div>
+          </div>
+          <div class="service-item reveal">
+            <div class="service-number">04</div>
+            <div class="service-content">
+              <h3>UI/UX Design</h3>
+              <p>
+                Visual identities that feel lived-in, not manufactured. From
+                interfaces to full design systems with genuine personality.
+              </p>
+            </div>
+            <div class="service-icon"><i class="ri-palette-line"></i></div>
+          </div>
+          <div class="service-item reveal">
+            <div class="service-number">05</div>
+            <div class="service-content">
+              <h3>Cloud Solutions</h3>
+              <p>
+                Scalable infrastructure that grows with you. Secure,
+                cost-effective, and built to handle whatever comes next.
+              </p>
+            </div>
+            <div class="service-icon"><i class="ri-cloud-line"></i></div>
+          </div>
+          <div class="service-item reveal">
+            <div class="service-number">06</div>
+            <div class="service-content">
+              <h3>Digital Transformation</h3>
+              <p>
+                Clear roadmaps from where you are to where you want to be. No
+                jargon, no fluff — just actionable direction.
+              </p>
+            </div>
+            <div class="service-icon"><i class="ri-lightbulb-line"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH / AI SECTION -->
+    <section class="section approach" id="approach">
+      <div class="section-container">
+        <div class="approach-layout">
+          <div class="approach-left reveal">
+            <span class="section-tag">Our Approach</span>
+            <h2 class="section-title">
+              Intelligence that <em>drives results</em>.
+            </h2>
+            <p class="approach-desc">
+              We integrate AI into every layer of your digital product — from
+              smart automation and predictive analytics to conversational
+              interfaces that feel genuinely helpful.
+            </p>
+            <ul class="approach-list">
+              <li>
+                <span class="check-icon"
+                  ><i class="ri-checkbox-circle-line"></i
+                ></span>
+                Custom AI chatbots & virtual assistants
+              </li>
+              <li>
+                <span class="check-icon"
+                  ><i class="ri-checkbox-circle-line"></i
+                ></span>
+                Predictive analytics & data insights
+              </li>
+              <li>
+                <span class="check-icon"
+                  ><i class="ri-checkbox-circle-line"></i
+                ></span>
+                Automated workflow optimization
+              </li>
+              <li>
+                <span class="check-icon"
+                  ><i class="ri-checkbox-circle-line"></i
+                ></span>
+                Natural language processing integration
+              </li>
+              <li>
+                <span class="check-icon"
+                  ><i class="ri-checkbox-circle-line"></i
+                ></span>
+                Machine learning model deployment
+              </li>
+            </ul>
+          </div>
+          <div class="approach-right reveal">
+            <div class="process-cards">
+              <div class="process-card">
+                <span class="process-step">01</span>
+                <h4>Discovery</h4>
+                <p>
+                  We listen. Understand your goals, your users, your
+                  constraints.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-step">02</span>
+                <h4>Strategy</h4>
+                <p>
+                  Map the path. Define scope, timeline, and technical approach.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-step">03</span>
+                <h4>Build</h4>
+                <p>
+                  Execute with precision. Iterative development with constant
+                  feedback.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-step">04</span>
+                <h4>Launch & Grow</h4>
+                <p>Ship it. Then optimize, support, and scale together.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section-container">
+        <div class="contact-header reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">
+            Let's make something<br /><em>worth making</em>.
+          </h2>
+          <p class="section-desc">
+            Every great project starts with a simple conversation. Tell us what
+            you're building.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Start the Conversation</h3>
+            <p>
+              Tell us what you're building, what's not working, or what you're
+              dreaming about. We'll be honest about whether we're the right fit.
+            </p>
+            <div class="contact-details">
+              <div class="contact-detail">
+                <i class="ri-mail-line"></i>
+                <div>
+                  <span>Email Us</span>
+                  <a href="mailto:lance@weforgetechnologies.com">lance@weforgetechnologies.com</a>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <i class="ri-global-line"></i>
+                <div>
+                  <span>Website</span>
+                  <a href="https://weforgetechnologies.com" target="_blank"
+                    >weforgetechnologies.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-detail">
+                <i class="ri-map-pin-line"></i>
+                <div>
+                  <span>Location</span>
+                  <p>Remote-first, Earth-based</p>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <i class="ri-time-line"></i>
+                <div>
+                  <span>Response Time</span>
+                  <p>Within 24 hours</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="john@example.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service">
+                <option value="">Select a service</option>
+                <option>Web Development</option>
+                <option>Mobile App Development</option>
+                <option>AI Solutions</option>
+                <option>UI/UX Design</option>
+                <option>Cloud Solutions</option>
+                <option>Digital Transformation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                placeholder="Tell us about your project..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit">
+              Send Message <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <a href="#" class="nav-logo footer-logo">
+            <span class="logo-we">We</span><span class="logo-forge">Forge</span>
+          </a>
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#approach">Approach</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-socials">
+            <a
+              href="https://www.linkedin.com/company/weforgetechnologies/"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+            <a href="https://weforgetechnologies.com" target="_blank" aria-label="Website" title="Coming Soon"
+              ><i class="ri-global-line"></i
+            ></a>
+            <a href="mailto:lance@weforgetechnologies.com" aria-label="Email"><i class="ri-mail-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 WeForge Technologies. Built with intention.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CHATBOT -->
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat">
+      <i class="ri-chat-3-line chat-icon"></i>
+      <i class="ri-close-line close-icon"></i>
+    </button>
+
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-status"></div>
+        <div class="chatbot-header-info">
+          <h4>WeForge Assistant</h4>
+          <span>Online — typically replies instantly</span>
+        </div>
+      </div>
+      <div class="chatbot-messages" id="chatMessages">
+        <div class="chat-message bot">
+          Hey! 👋 I can help you learn about our services, process, or how we
+          might help with your project. What's on your mind?
+        </div>
+      </div>
+      <div class="chatbot-input">
+        <input type="text" id="chatInput" placeholder="Ask me anything..." />
+        <button id="chatSend" aria-label="Send">
+          <i class="ri-send-plane-2-fill"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
